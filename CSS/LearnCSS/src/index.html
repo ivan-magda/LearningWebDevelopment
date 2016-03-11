@@ -3,9 +3,9 @@
 <head>
     <title>Learning CSS</title>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <style type="text/css">
         .large_paragraph {
@@ -24,6 +24,67 @@
         .bold {
             font-weight: bold;
         }
+
+        .lightcoral_box {
+            background-color: lightcoral;
+            height: 100px;
+            position: static;
+            left: 100px;
+            top: 50px;
+            margin: 50px;
+            padding: 8px;
+            z-index: 1;
+        }
+
+        .cornsilk_box {
+            background-color: cornsilk;
+            width: 300px;
+            position: static;
+            margin: 0px 44px 16px 16px;
+            padding-left: 50px;
+            z-index: 2;
+        }
+
+        .red_box {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            margin-left: 0px;
+            float: left;
+            border: 8px black solid;
+        }
+
+        .blue_box {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            margin-left: 16px;
+            float: left;
+            border: 8px inset red;
+            border-right-width: 4px;
+            border-left-width: 4px;
+        }
+
+        .green_box {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            margin-left: 16px;
+            float: left;
+            border-radius: 50px;
+        }
+
+        .font-text {
+            font-family: "Courier New",serif;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        p {
+            margin: 0;
+        }
     </style>
 
 </head>
@@ -31,7 +92,25 @@
 <body>
 <p class="large_paragraph">This is a large plain text</p>
 <p id="green" class="large_paragraph">This is another text line</p>
-<p>The third <span class="underline large_paragraph bold">word</span> in this paragraph is underline</p>
+
+<div class="lightcoral_box">
+    <p>The third <span class="underline large_paragraph bold">word</span> in this paragraph is underline</p>
+    <p>Hello!</p>
+</div>
+
+<div class="cornsilk_box">
+    <p>This line is in the div section</p>
+</div>
+<hr />
+
+<div class="red_box"></div>
+<div class="blue_box"></div>
+<div class="green_box"></div>
+
+<div class="clear"></div>
+<hr />
+
+<p class="font-text">This's test text</p>
 
 </body>
 </html>
