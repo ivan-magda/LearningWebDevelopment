@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #1F4F82;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #505050;
+    margin: 10px 0 10px 10px;
+    font-size: 2em;
+}
+
+/*
+ Top Bar
+*/
+
+#top-bar {
+    background-color: #7B0000;
+    width: 100%;
+    height: 46px;
+    color: white;
+    margin: 0;
+}
+
+.fixed-width {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+#bbc-logo {
+    padding-top: 10px;
+    padding-right: 8px;
+    float: left;
+    border-right: 1px solid #990000;
+    height: 36px;
+}
+
+#bbc-logo img {
+    position: relative;
+}
+
+#sign-in {
+    float: left;
+    color: #FFFFFF;
+    width: 150px;
+    height: 46px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-right: 1px solid #990000;
+}
+
+#sign-in img {
+    float: left;
+    position: relative;
+    top: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#sign-in p {
+    float: left;
+    position: relative;
+    top: 1px;
+}
+
+#top-menu {
+    float: left;
+}
+
+#top-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu li {
+    float: left;
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 13px 20px 16px 20px;
+    border-right: 1px solid #990000;
+}
+
+#search-bar {
+    float: left;
+    padding: 8px 0 0 10px;
+}
+
+#search-bar input {
+    height: 20px;
+    border: none;
+    font-size: 0.9em;
+    padding-left: 8px;
+    background-image: url("res/images/search.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+/*
+ News Bar
+*/
+
+#news-bar {
+    background-color: #990000;
+    width: 100%;
+    height: 85px;
+    color: white;
+    margin: 0;
+}
+
+#news-bar p {
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+}
+
+#news-header {
+    font-size: 2.8em;
+}
+
+#uk {
+    font-size: 0.7em;
+    padding-left: 16px;
+}
+
+#rss {
+    float: right;
+    margin-top: 30px;
+}
+
+#topic-menu {
+
+}
+
+#topic-menu ul {
+    margin: 0;
+    padding: 5px 0 0 5px;
+    height: 20px;
+    background-color: #3E0C0D;
+}
+
+#topic-menu li {
+    float: left;
+    padding: 0 5px 0 5px;
+    list-style: none;
+    font-size: 0.8em;
+    border-right: 1px solid #990000;
+}
+
+.selected {
+    background-color: #EDEDED;
+    color: gray;
+    height: 20px;
+    position: relative;
+    top: -5px;
+    padding-top: 6px !important;
+}
+
+/*
+ Content
+*/
+
+#content {
+    width: 100%;
+    color: #565656;
+    font-size: 0.75em;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.headline-image {
+    float: left;
+}
+
+.news-item {
+    position: relative;
+    float: left;
+    top: -14px;
+    left: 10px;
+    width: 250px;
+    font-size: 1.1em;
+}
+
+.news-item a {
+    color: #305C8B;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.video {
+    padding-left: 20px;
+    background-image: url("res/images/triangle.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.audio {
+    padding-left: 20px;
+    background-image: url("res/images/audio.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.links {
+    line-height: 1.6em;
+}
+
+#watch-listen {
+    float: right;
+    position: relative;
+    top: -80px;
+    background-color: #EDEDED;
+    width: 337px;
+}
+
+.boxes {
+    float: right;
+    margin: 20px 10px 0 0;
+}
+
+.left-arrow {
+    float: left;
+    border-right: 1px solid white;
+}
+
+.wl-block {
+    float: left;
+    background-color: #D1700E;
+    width: 143px;
+    border-right: 1px solid white;
+}
+
+.wl-block a {
+    color: white;
+}
+
+.wl-block p {
+    margin: 7px 10px 6px 10px;
+}
+
+#watch-listen ul {
+    margin: 0;
+    padding: 0 10px 10px 10px;
+}
+
+#watch-listen li {
+    list-style: none;
+    padding: 10px 0 10px 50px;
+    background-image: url("res/images/live.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 1.2em;
+}
+
+.bb {
+    border-bottom: 1px solid #DDDDDD;
+}
