@@ -17,6 +17,21 @@
             clear: both;
         }
 
+        a {
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #1F4F82;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #505050;
+            margin: 10px 0 10px 10px;
+            font-size: 2em;
+        }
+
         /*
          Top Bar
         */
@@ -163,6 +178,110 @@
             top: -5px;
             padding-top: 6px !important;
         }
+
+        /*
+         Content
+        */
+
+        #content {
+            width: 100%;
+            color: #565656;
+            font-size: 0.75em;
+        }
+
+        .date {
+            font-weight: bold;
+        }
+
+        .headline-image {
+            float: left;
+        }
+
+        .news-item {
+            position: relative;
+            float: left;
+            top: -14px;
+            left: 10px;
+            width: 250px;
+            font-size: 1.1em;
+        }
+        
+        .news-item a {
+            color: #305C8B;
+        }
+
+        .news-item a:hover {
+            text-decoration: underline;
+        }
+
+        .video {
+            padding-left: 20px;
+            background-image: url("res/images/triangle.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+
+        .audio {
+            padding-left: 20px;
+            background-image: url("res/images/audio.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+
+        .links {
+            line-height: 1.6em;
+        }
+
+        #watch-listen {
+            float: right;
+            position: relative;
+            top: -80px;
+            background-color: #EDEDED;
+            width: 337px;
+        }
+
+        .boxes {
+            float: right;
+            margin: 20px 10px 0 0;
+        }
+
+        .left-arrow {
+            float: left;
+            border-right: 1px solid white;
+        }
+
+        .wl-block {
+            float: left;
+            background-color: #D1700E;
+            width: 143px;
+            border-right: 1px solid white;
+        }
+
+        .wl-block a {
+            color: white;
+        }
+
+        .wl-block p {
+            margin: 7px 10px 6px 10px;
+        }
+
+        #watch-listen ul {
+            margin: 0;
+            padding: 0 10px 10px 10px;
+        }
+
+        #watch-listen li {
+            list-style: none;
+            padding: 10px 0 10px 50px;
+            background-image: url("res/images/live.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+            font-size: 1.2em;
+        }
+
+        .bb {
+            border-bottom: 1px solid #DDDDDD;
+        }
     </style>
 </head>
 <body>
@@ -195,7 +314,6 @@
             </div>
         </div>
     </div>
-
     <div class="clear"></div>
 
     <div id="news-bar">
@@ -222,6 +340,49 @@
                     <li>Sci/Environment</li>
                     <li>Technology</li>
                     <li style="border-right: none">Entertainment & Arts</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div id="content">
+        <div class="fixed-width">
+            <p><span class="date">2 April 2014</span> Last updated at 14:13</p>
+            <h1>Pollution to spread across England</h1>
+            <img class="headline-image" src="res/images/headline_image.jpg">
+
+            <div class="news-item">
+                <p>Health warnings have been issued by the government as pollution spreading across England
+                    is forecast to hit high levels.</p>
+                <p class="links">
+                    <a class="video" href="">Why are pollution levels so high?</a><br/>
+                    <a class="video" href="">Saharan dust visible on cars</a><br/>
+                    <a class="video" href="">How Saharan dust reached the UK Watch What will pollution do to us?</a><br/>
+                    <a class="audio" href="">Air pollution a 'serious issue'</a>
+                </p>
+            </div>
+
+            <div id="watch-listen">
+                <img class="boxes" src="res/images/boxes.png">
+                <h2>Watch/Listen</h2>
+                <img class="left-arrow" src="res/images/left_arrow.png">
+
+                <div class="wl-block">
+                    <img src="res/images/pic1.png">
+                    <p><a href="">Titanic letter could fetch £100,000</a></p>
+                </div>
+                <div class="wl-block">
+                    <img src="res/images/pic2.png">
+                    <p><a href="">The housing estate delivering its own mail</a></p>
+                </div>
+                <img class="left-arrow" src="res/images/right_arrow.png">
+                <div class="clear"></div>
+
+                <ul>
+                    <li class="bb"><a href="">BBC News Channel</a></li>
+                    <li class="bb"><a href="">Radio 5 live</a></li>
+                    <li><a href="">Osborne questioned on budget</a></li>
                 </ul>
             </div>
         </div>
