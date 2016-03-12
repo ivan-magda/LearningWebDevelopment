@@ -40,6 +40,7 @@
             background-color: cornsilk;
             width: 300px;
             position: static;
+            text-align: center;
             margin: 0px 44px 16px 16px;
             padding-left: 50px;
             z-index: 2;
@@ -78,12 +79,24 @@
             font-family: "Courier New",serif;
         }
 
+        .italic {
+            font-style: italic;
+        }
+
         .clear {
             clear: both;
         }
 
         p {
             margin: 0;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            font-size: 32px;
         }
     </style>
 
@@ -111,6 +124,12 @@
 <hr />
 
 <p class="font-text">This's test text</p>
+<p class="italic">This's <span class="underline">italic</span> text</p>
+<p class="bold">This's some bold text</p>
+<hr />
+
+<a href="http://google.com" target=_blank>Google</a>
+<a href="http://yandex.ru" target=_blank>Yandex</a>
 
 </body>
 </html>
