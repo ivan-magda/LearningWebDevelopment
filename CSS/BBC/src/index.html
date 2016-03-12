@@ -28,7 +28,7 @@
 
         #bbc-logo {
             padding-top: 10px;
-            padding-right: 10px;
+            padding-right: 8px;
             float: left;
             border-right: 1px solid #990000;
             height: 36px;
@@ -39,8 +39,9 @@
         }
 
         #sign-in {
+            float: left;
             color: #FFFFFF;
-            width: 250px;
+            width: 150px;
             height: 46px;
             font-weight: bold;
             font-size: 0.8em;
@@ -51,14 +52,47 @@
             float: left;
             position: relative;
             top: 12px;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 8px;
+            padding-right: 8px;
         }
 
         #sign-in p {
             float: left;
             position: relative;
             top: 1px;
+        }
+
+        #top-menu {
+            float: left;
+        }
+
+        #top-menu ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        #top-menu li {
+            float: left;
+            list-style: none;
+            font-weight: bold;
+            font-size: 0.9em;
+            padding: 13px 20px 16px 20px;
+            border-right: 1px solid #990000;
+        }
+
+        #search-bar {
+            float: left;
+            padding: 8px 0 0 10px;
+        }
+
+        #search-bar input {
+            height: 20px;
+            border: none;
+            font-size: 0.9em;
+            padding-left: 8px;
+            background-image: url("res/images/search.png");
+            background-repeat: no-repeat;
+            background-position: right center;
         }
     </style>
 </head>
@@ -73,6 +107,22 @@
             <div id="sign-in">
                 <img src="res/images/user.png"/>
                 <p>Sign In</p>
+            </div>
+
+            <div id="top-menu">
+                <ul>
+                    <li>News</li>
+                    <li>Sport</li>
+                    <li>Weather</li>
+                    <li>iPlayer</li>
+                    <li>TV</li>
+                    <li>Radio</li>
+                    <li>More...</li>
+                </ul>
+            </div>
+
+            <div id="search-bar">
+                <input type="text" placeholder="Search"/>
             </div>
         </div>
     </div>
