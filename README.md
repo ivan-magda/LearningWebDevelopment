@@ -25,3 +25,6 @@ This's pretty nice recontsruction of small part the [BBC News - UK](http://web.a
 Written using HTML and CSS.
 
 <img src="https://github.com/vanyaland/LearningWebDevelopment/blob/master/Screenshots/BBC/bbc_screenshot.png" width="640" height="240">
+
+### [Homework Site Template](../master/CSS/homeworkSiteTemplate)
+This is site template that I created as a homework project.
