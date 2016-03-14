@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: #06221D;
+}
+
+.clear {
+    clear: both;
+}
+
+.fixed_width {
+    width: 700px;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#container {
+
+}
+
+.centered_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: no-repeat fixed center;
+}
+
+#main_block {
+    background: url("images/background_cropped.png") no-repeat top center;
+}
+
+#logo {
+    width: 100%;
+    padding: 0;
+    margin-left: 80px;
+    font-size: 1.8em;
+}
+
+#logo h1 {
+    float: left;
+    color: #D38484;
+    margin: 0;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+#white_chalk {
+    float: left;
+    transform: rotate(25deg);
+    margin: 0;
+    padding-top: 25px;
+}
+
+#pieces_of_chalk {
+    float: left;
+    margin: 0;
+    padding-top: 90px;
+    transform: rotate(25deg);
+}
+
+#top_menu {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 180px;
+}
+
+#top_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#top_menu li {
+    color: #68B36B;
+    float: left;
+    list-style: none;
+    font-size: 1.3em;
+    padding: 13px 20px 16px 20px;
+}
+
+#melok {
+    margin: -80px 0 0 -140px;
+    transform: rotate(180deg);
+}
