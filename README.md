@@ -28,3 +28,5 @@ Written using HTML and CSS.
 
 ### [Homework Site Template](../master/CSS/homeworkSiteTemplate)
 This is site template that I created as a homework project.
+
+<img src="https://github.com/vanyaland/LearningWebDevelopment/blob/master/Screenshots/Lomez%20FT/lomez_ft.png" width="640" height="352">
