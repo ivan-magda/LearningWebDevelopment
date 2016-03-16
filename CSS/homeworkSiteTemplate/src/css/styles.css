@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Lcchalk;
+    src: url("fonts/Lcchalk.ttf");
+}
+
 body {
     margin: 0;
     background-color: #06221D;
+    font-family: Lcchalk;
 }
 
 .clear {
@@ -9,7 +15,7 @@ body {
 
 .fixed_width {
     width: 740px;
-    height: 1250px;
+    height: 1555px;
     margin: 0 auto;
 }
 
@@ -96,11 +102,11 @@ body {
     float: left;
     background-color: #243B59;
     opacity: 0.75;
-    margin-top: 25px;
+    margin-top: 55px;
     margin-left: 15px;
     padding: 0;
-    width: 280px;
-    height: 180px;
+    width: 305px;
+    height: 230px;
     border-radius: 50px;
 }
 
@@ -119,8 +125,10 @@ body {
     position: relative;
     padding: 0;
     margin: 0;
-    width: 180px;
+    width: 210px;
     float: left;
+    font-family: Arial, serif;
+    font-size: 18px;
 }
 
 #text p {
@@ -167,7 +175,7 @@ body {
 #turtle_block p {
     float: left;
     color: #68B36B;
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-style: italic;
     padding: 0;
     margin-top: 30px;
@@ -188,8 +196,13 @@ body {
     margin: 10px;
 }
 
-#custom_margins {
+#custom_layout {
+    width: 55%;
     padding: 0;
     margin-top: 10px;
-    margin-left: 155px;
+    margin-left: 180px;
+}
+
+#custom_layout p {
+    font-size: 0.9em;
 }
